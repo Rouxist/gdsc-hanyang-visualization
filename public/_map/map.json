@@ -1,0 +1,22 @@
+{
+  "title": "지도",
+  "desc": "설명",
+  "elements": [
+    {
+      "title": "Hyperparameter Tuning",
+      "speaker": "강용진",
+      "src": "/assets/videos",
+      "slug": "hype-tuning",
+      "desc": "적절한 하이퍼 파라미터를 찾아가기",
+      "coordinate": "20,50,25"
+    },
+    {
+      "title": "주제와 제목",
+      "speaker": "발표자",
+      "src": "/assets/videos",
+      "slug": "test-slug",
+      "desc": "테스트 데이터",
+      "coordinate": "1384,425,25"
+    }
+  ]
+}
