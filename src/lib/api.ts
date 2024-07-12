@@ -1,13 +1,11 @@
-import { type Map } from "@/interfaces/map";
 import { type Tts } from "@/interfaces/tts";
 import fs from "fs";
-import { get } from "http";
 import { join } from "path";
 
 // _map
 
 export function getMap() {
-  const fullPath = "public/_map/map.json";
+  const fullPath = join(process.cwd(), "public/_map/map.json");
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const threadData = JSON.parse(fileContents);
   return threadData;
