@@ -5,18 +5,18 @@
     {
       "title": "Hyperparameter Tuning",
       "speaker": "강용진",
-      "src": "/assets/videos",
+      "src": "https://www.youtube.com/embed/qGAk4hLUiOc",
       "slug": "hype-tuning",
-      "desc": "적절한 하이퍼 파라미터를 찾아가기",
-      "coordinate": "20,50,25"
+      "desc": "딥러닝에 있어 Hyperparameter Tuning이란 무엇인지 알아보자!",
+      "coordinate": "110,100,25"
     },
     {
-      "title": "주제와 제목",
-      "speaker": "발표자",
-      "src": "/assets/videos",
-      "slug": "test-slug",
-      "desc": "테스트 데이터",
-      "coordinate": "1384,425,25"
+      "title": "Cookie & Web Storage",
+      "speaker": "한지윤",
+      "src": "https://www.youtube.com/embed/oCNs019k5NE",
+      "slug": "cookie-webstorage",
+      "desc": "쿠키? 세션? 그것이 뭔지 알아보자!",
+      "coordinate": "960,650,25"
     }
   ]
 }
