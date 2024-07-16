@@ -3,20 +3,130 @@
   "desc": "설명",
   "elements": [
     {
+      "title": "Overfitting & Underfitting",
+      "category": "ML/DL",
+      "speaker": "유서현",
+      "src": "https://www.youtube.com/embed/kks96UamI5k",
+      "slug": "overfitting-underfitting",
+      "desc": "모델을 학습하다보면 발생하는 Overfitting 혹은 Underfitting 상황에 대해 알아보자!",
+      "coordinate": "423,566,15"
+    },
+    {
+      "title": "Supervised & Unsupervisied",
+      "category": "ML/DL",
+      "speaker": "권도혁",
+      "src": "https://www.youtube.com/embed/6XtXLrW82jI",
+      "slug": "supervised-unsupervisied",
+      "desc": "ML모델 학습 방식인 지도 & 비지도 학습에 대해 알아보자!",
+      "coordinate": "344,707,15"
+    },
+    {
+      "title": "Ensemble",
+      "category": "ML/DL",
+      "speaker": "조서우",
+      "src": "https://www.youtube.com/embed/6XtXLrW82jI",
+      "slug": "ensemble",
+      "desc": "여러 모델을 조화롭게 학습시키는 기법인 Ensemble을 알아보자!",
+      "coordinate": "384,716,15"
+    },
+    {
+      "title": "CNN & RNN",
+      "category": "ML/DL",
+      "speaker": "이지환",
+      "src": "https://www.youtube.com/embed/GhlqPoASuNc",
+      "slug": "cnn-rnn",
+      "desc": "기본적인 Neural Network의 architecture인 CNN과 RNN에 대해 알아보자!",
+      "coordinate": "423,720,15"
+    },
+    {
+      "title": "Transformer",
+      "category": "ML/DL",
+      "speaker": "송성근",
+      "src": "https://www.youtube.com/embed/ZeKTN40Eyp0",
+      "slug": "transformer",
+      "desc": "GPT 등 매우 다양한 현대 모델들에 크게 영향을 주는 Transformer에 대해 알아보자!",
+      "coordinate": "458,726,15"
+    },
+    {
+      "title": "Generative AI",
+      "category": "ML/DL",
+      "speaker": "김찬원",
+      "src": "https://www.youtube.com/embed/HvTjc3PAYc4",
+      "slug": "generative",
+      "desc": "GenAI의 역사 및 특징에 대해 알아보자!",
+      "coordinate": "551,806,15"
+    },
+    {
+      "title": "Multi-modal",
+      "category": "ML/DL",
+      "speaker": "조서우",
+      "src": "https://www.youtube.com/embed/nDJjkGIlamI",
+      "slug": "multimodal",
+      "desc": "요즘 핫한 키워드인 Multi-modal에 대해 알아보자!",
+      "coordinate": "591,797,15"
+    },
+    {
+      "title": "LLM",
+      "category": "ML/DL",
+      "speaker": "유서현",
+      "src": "https://www.youtube.com/embed/d-iFczRDpyI",
+      "slug": "llm",
+      "desc": "LLM의 용어에 대해서 알아보자!",
+      "coordinate": "624,814,15"
+    },
+    {
       "title": "Hyperparameter Tuning",
+      "category": "ML/DL",
       "speaker": "강용진",
       "src": "https://www.youtube.com/embed/qGAk4hLUiOc",
-      "slug": "hype-tuning",
+      "slug": "hypetuning",
       "desc": "딥러닝에 있어 Hyperparameter Tuning이란 무엇인지 알아보자!",
-      "coordinate": "110,100,25"
+      "coordinate": "690,817,15"
+    },
+    {
+      "title": "EDA",
+      "category": "ML/DL",
+      "speaker": "황지빈",
+      "src": "https://www.youtube.com/embed/t6K0Eo_5ir8",
+      "slug": "eda",
+      "desc": "데이터 분석의 핵심인 EDA 과정에 대해 알아보자!",
+      "coordinate": "725,800,15"
+    },
+    {
+      "title": "Backpropagation & Gradient Descent",
+      "category": "ML/DL",
+      "speaker": "방인규",
+      "src": "https://www.youtube.com/embed/Ul_Z5qWtsXs",
+      "slug": "backpropagation-gradientdescent",
+      "desc": "역전파와 경사하강법에 대해 알아보자!",
+      "coordinate": "764,808,15"
+    },
+    {
+      "title": "Classification & Regression",
+      "category": "ML/DL",
+      "speaker": "임도현",
+      "src": "https://www.youtube.com/embed/ntKSsMst-ZM",
+      "slug": "classification-regression",
+      "desc": "분류와 회귀! 각 용어를 예시와 함께 알아보자",
+      "coordinate": "660,657,15"
     },
     {
       "title": "Cookie & Web Storage",
+      "category": "Front",
       "speaker": "한지윤",
       "src": "https://www.youtube.com/embed/oCNs019k5NE",
       "slug": "cookie-webstorage",
       "desc": "쿠키? 세션? 그것이 뭔지 알아보자!",
       "coordinate": "960,650,25"
+    },
+    {
+      "title": "ADsP(Advanced Data Analytics Semi-Professional)",
+      "category": "ML/DL",
+      "speaker": "김예림",
+      "src": "https://www.youtube.com/embed/KljtDZhSSGA",
+      "slug": "adsp",
+      "desc": "김예림님의 “ADsP 자격증 도전 후기”라는 주제의 발표입니다!",
+      "coordinate": "1720,1807,36"
     }
   ]
 }

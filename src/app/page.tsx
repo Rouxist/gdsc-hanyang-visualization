@@ -8,12 +8,12 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col justify-center items-center">
-      <div className="w-[90vw]">
+      <div className="w-[100vw]">
         <Image
           useMap="#gdsc-map"
-          src="/assets/map.jpg"
-          width={3840}
-          height={2160}
+          src="/assets/map.jpeg"
+          width={17100}
+          height={962}
           alt="map"
         ></Image>
       </div>
