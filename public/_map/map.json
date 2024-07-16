@@ -111,22 +111,319 @@
       "coordinate": "660,657,15"
     },
     {
+      "title": "UI/UX",
+      "category": "Front",
+      "speaker": "김지송",
+      "src": "https://www.youtube.com/embed/MYykIdOeZKE",
+      "slug": "ui-ux",
+      "desc": "null",
+      "coordinate": "382,279,15"
+    },
+    {
+      "title": "CSR과 SSR",
+      "category": "Front",
+      "speaker": "박시형",
+      "src": "https://www.youtube.com/embed/W-droG998Xs",
+      "slug": "csr-ssr",
+      "desc": "Client냐 Server냐! 서로다른 렌더링 방식인 CSR과 SSR에 대해 알아보자!",
+      "coordinate": "316,411,15"
+    },
+    {
+      "title": "Component",
+      "category": "Front",
+      "speaker": "안태연",
+      "src": "https://www.youtube.com/embed/GlP1d8TupAg",
+      "slug": "component",
+      "desc": "null",
+      "coordinate": "406,399,15"
+    },
+    {
       "title": "Cookie & Web Storage",
       "category": "Front",
       "speaker": "한지윤",
       "src": "https://www.youtube.com/embed/oCNs019k5NE",
       "slug": "cookie-webstorage",
       "desc": "쿠키? 세션? 그것이 뭔지 알아보자!",
-      "coordinate": "960,650,25"
+      "coordinate": "500,411,15"
+    },
+    {
+      "title": "Cross Platform & Native vs Hybrid",
+      "category": "Front",
+      "speaker": "안희",
+      "src": "https://www.youtube.com/embed/9Kb3MQMyl5I",
+      "slug": "crossplatform-native-hybrid",
+      "desc": "다양한 개발 플랫폼에 대해 비교해보자!",
+      "coordinate": "595,213,15"
+    },
+    {
+      "title": "Layout",
+      "category": "Front",
+      "speaker": "안태연",
+      "src": "https://www.youtube.com/embed/GlYeueps4jQ",
+      "slug": "layout",
+      "desc": "디자인의 기본 개념인 Layout에 대해 알아보자!",
+      "coordinate": "597,322,15"
+    },
+    {
+      "title": "CI/CD",
+      "category": "Back",
+      "speaker": "홍정범",
+      "src": "https://www.youtube.com/embed/QxSOHkl8S-o",
+      "slug": "ci-cd",
+      "desc": "GDSC HYU TTS 3회차 - CI/CD 발표",
+      "coordinate": "985,237,15"
+    },
+    {
+      "title": "Lock & Transaction",
+      "category": "Back",
+      "speaker": "박시형",
+      "src": "https://www.youtube.com/embed/709NydC66RM",
+      "slug": "lock-transaction",
+      "desc": "Lock과 Transaction이 무엇인지 그리고 MySQL에서 어떻게 쓰이는지 알아보자!",
+      "coordinate": "1009,220,15"
+    },
+    {
+      "title": "Request & Response",
+      "category": "Back",
+      "speaker": "정혜운",
+      "src": "https://www.youtube.com/embed/uGCZnSEtcqY",
+      "slug": "request-response",
+      "desc": "네트워크 요청과 응답에 대해 알아보자!",
+      "coordinate": "1041,198,15"
+    },
+    {
+      "title": "Load Balancing",
+      "category": "Back",
+      "speaker": "신채영",
+      "src": "https://www.youtube.com/embed/pOJ64IwfDhY",
+      "slug": "load-balancing",
+      "desc": "네트워크의 부하를 막기위해 요청을 분산해주는 기술인 로드밸런싱에 대해 알아보자!",
+      "coordinate": "1068,190,15"
+    },
+    {
+      "title": "SQL & NoSQL",
+      "category": "Back",
+      "speaker": "윤상혁",
+      "src": "https://www.youtube.com/embed/3PbMqHBiM50",
+      "slug": "sql-nosql",
+      "desc": "SQL과 NoSQL이 뭘까? 서로 비교하며 알아보자!",
+      "coordinate": "1139,216,15"
+    },
+    {
+      "title": "Docker",
+      "category": "Back",
+      "speaker": "고다은",
+      "src": "https://www.youtube.com/embed/yoLju75U3mI",
+      "slug": "docker",
+      "desc": "null",
+      "coordinate": "1160,240,15"
+    },
+    {
+      "title": "Binary Search",
+      "category": "Back",
+      "speaker": "장동우",
+      "src": "https://www.youtube.com/embed/TXfQpJuYIuQ",
+      "slug": "binary-search",
+      "desc": "효율적인 자료 탐색 방식인 Binary Search에 대해 알아보자",
+      "coordinate": "1411,432,15"
+    },
+    {
+      "title": "HTTP Method",
+      "category": "CS/DTS",
+      "speaker": "이주은",
+      "src": "https://www.youtube.com/embed/G6fpL-Qd1cQ",
+      "slug": "http-method",
+      "desc": "네트워크의 근간인 HTTP Method에 대해 알아보자!",
+      "coordinate": "988,654,15"
+    },
+    {
+      "title": "Scope & Closure",
+      "category": "CS/DTS",
+      "speaker": "정우서",
+      "src": "https://www.youtube.com/embed/dxtb0OEF0_w",
+      "slug": "scope-closure",
+      "desc": "개발에 있어 매우 중요한 개념인 Scope & Closure에 대해 알아보자!",
+      "coordinate": "1038,680,15"
+    },
+    {
+      "title": "Complied & Interpreted",
+      "category": "CS/DTS",
+      "speaker": "표지원",
+      "src": "https://www.youtube.com/embed/Jxcw0MjTN_Q",
+      "slug": "complied-interpreted",
+      "desc": "컴파일러와 인터프리터 언어의 차이!",
+      "coordinate": "1056,727,15"
+    },
+    {
+      "title": "Github",
+      "category": "CS/DTS",
+      "speaker": "임도현",
+      "src": "https://www.youtube.com/embed/OTlj0RyLcXE",
+      "slug": "github",
+      "desc": "우리가 자주 사용하게 될 Github에 대해 더 쉽게 알아보자!",
+      "coordinate": "1038,775,15"
+    },
+    {
+      "title": "Library & Framework and API",
+      "category": "CS/DTS",
+      "speaker": "박소영",
+      "src": "https://www.youtube.com/embed/SvywAjmOeRw",
+      "slug": "library-framework-api",
+      "desc": "라이브러리와 프레임워크, 그리고 API에 대해 알아보자!",
+      "coordinate": "988,804,15"
+    },
+    {
+      "title": "CPU Scheduling",
+      "category": "CS/DTS",
+      "speaker": "조현진",
+      "src": "https://www.youtube.com/embed/z0a7g5rMNYs",
+      "slug": "cpu-scheduling",
+      "desc": "프로세스와 CPU Scheduling 기법에 대해 알아보자!",
+      "coordinate": "939,776,15"
+    },
+    {
+      "title": "TCP/IP",
+      "category": "CS/DTS",
+      "speaker": "김남호",
+      "src": "https://www.youtube.com/embed/2G5HbH4AVuU",
+      "slug": "tcp-ip",
+      "desc": "네트워크의 핵심인 TCP/IP 개념에 대해 알아보자!",
+      "coordinate": "920,726,15"
+    },
+    {
+      "title": "시간복잡도",
+      "category": "CS/DTS",
+      "speaker": "정혜인",
+      "src": "https://www.youtube.com/embed/BEn9oJd_nD0",
+      "slug": "time-complexity",
+      "desc": "수행시간을 보는 Metric인 시간복잡도에 대해 알아보자!",
+      "coordinate": "938,679,15"
+    },
+    {
+      "title": "BFS & DFS",
+      "category": "CS/DTS",
+      "speaker": "홍현민",
+      "src": "https://www.youtube.com/embed/X2ZjavVJcww",
+      "slug": "bfs-dfs",
+      "desc": "중요한 탐색 알고리즘인, DFS와 BFS에 대해 알아보자!",
+      "coordinate": "986,723,15"
+    },
+    {
+      "title": "Tree",
+      "category": "CS/DTS",
+      "speaker": "김기진",
+      "src": "https://www.youtube.com/embed/XUnrHHDu7KU",
+      "slug": "tree",
+      "desc": "자료구조의 일종인 Tree에 대해 알아보자!",
+      "coordinate": "1161,754,15"
+    },
+    {
+      "title": "Stack & Queue",
+      "category": "CS/DTS",
+      "speaker": "이차민",
+      "src": "https://www.youtube.com/embed/m0jF1cRnzz4",
+      "slug": "stack-queue",
+      "desc": "기본적인 자료구조인 Stack과 Queue에 대해 알아보자!",
+      "coordinate": "1210,785,15"
+    },
+    {
+      "title": "Cache",
+      "category": "CS/DTS",
+      "speaker": "황동욱",
+      "src": "https://www.youtube.com/embed/baLqVJPib5w",
+      "slug": "cache",
+      "desc": "null",
+      "coordinate": "1266,752,15"
+    },
+    {
+      "title": "나의 첫 개발 후기",
+      "category": "CS/DTS",
+      "speaker": "이차민",
+      "src": "https://www.youtube.com/embed/OEjB46MtMSU",
+      "slug": "first-developing",
+      "desc": "차민님의 “나의 첫 개발 후기” 발표입니다!",
+      "coordinate": "1211,597,15"
+    },
+    {
+      "title": "데이터분석 프로젝트",
+      "category": "CS/DTS",
+      "speaker": "김남호",
+      "src": "https://www.youtube.com/embed/-L4ze2C8eZ4",
+      "slug": "daat-analysis-project",
+      "desc": "남호님의 “데이터분석 프로젝트” 발표입니다!",
+      "coordinate": ""
+    },
+    {
+      "title": "Trading Bot 개발",
+      "category": "CS/DTS",
+      "speaker": "황동욱",
+      "src": "https://www.youtube.com/embed/N_2V1vqnNGI",
+      "slug": "trading-bot-development",
+      "desc": "null",
+      "coordinate": ""
+    },
+    {
+      "title": "나의 두번째 인턴 후기",
+      "category": "CS/DTS",
+      "speaker": "장동우",
+      "src": "https://www.youtube.com/embed/mxYXlMV6j3o",
+      "slug": "second-intern-review",
+      "desc": "장동우님의 “나의 두번째 인턴 후기”라는 주제의 발표입니다!",
+      "coordinate": ""
+    },
+    {
+      "title": "유연한 사고 길들이기",
+      "category": "CS/DTS",
+      "speaker": "이탁현",
+      "src": "https://www.youtube.com/embed/FBHmCZg_cRM",
+      "slug": "flexible-thinking",
+      "desc": "이탁현님의 “유연한 사고 길들이기”라는 주제의 발표입니다!",
+      "coordinate": ""
+    },
+    {
+      "title": "SQLD 취득 후기",
+      "category": "CS/DTS",
+      "speaker": "한지윤",
+      "src": "https://www.youtube.com/embed/KxHk4Nx-mto",
+      "slug": "sqld",
+      "desc": "한지윤님의 “SQLD 취득 후기”라는 주제의 발표입니다!",
+      "coordinate": ""
+    },
+    {
+      "title": "사이드 프로젝트",
+      "category": "CS/DTS",
+      "speaker": "강용진",
+      "src": "https://www.youtube.com/embed/lpmYNd-YkzU",
+      "slug": "side-project",
+      "desc": "강용진님의 “사이드 프로젝트에서의 경험들”이라는 주제의 발표입니다!",
+      "coordinate": ""
+    },
+    {
+      "title": "가파른 러닝커브 만들기",
+      "category": "CS/DTS",
+      "speaker": "홍현민",
+      "src": "https://www.youtube.com/embed/vi6x0owuPHA",
+      "slug": "steep-learning-curve",
+      "desc": "홍현민님의 “가파른 러닝 커브 만들기”라는 주제의 발표입니다!",
+      "coordinate": ""
     },
     {
       "title": "ADsP(Advanced Data Analytics Semi-Professional)",
-      "category": "ML/DL",
+      "category": "CS/DTS",
       "speaker": "김예림",
       "src": "https://www.youtube.com/embed/KljtDZhSSGA",
       "slug": "adsp",
       "desc": "김예림님의 “ADsP 자격증 도전 후기”라는 주제의 발표입니다!",
-      "coordinate": "1720,1807,36"
+      "coordinate": ""
+    },
+    {
+      "title": "소프트웨어 개발 방법론",
+      "category": "CS/DTS",
+      "speaker": "강혜린",
+      "src": "https://www.youtube.com/embed/jqsWudzHm54",
+      "slug": "development-strategies",
+      "desc": "null",
+      "coordinate": ""
     }
   ]
 }
