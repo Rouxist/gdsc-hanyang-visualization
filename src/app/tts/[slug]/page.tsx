@@ -17,16 +17,31 @@ type TitleAndSlug = {
 export default function TTS({ params }: Params) {
   const ttsData = getTtsBySlug(params.slug);
   const ttsTitleAndSlugArray = getTtsArrayOfSameCategory(ttsData.category);
+  const ttsTitleArray = ttsTitleAndSlugArray.map(
+    (data: TitleAndSlug) => data.title
+  );
 
-  const textHoverCSS = () => {
-    if (ttsData.category == "Front") {
-      return "hover:text-red transition duration-150";
-    } else if (ttsData.category == "Back") {
-      return "hover:text-green transition duration-150";
-    } else if (ttsData.category == "CS/DTS") {
-      return "hover:text-yellow transition duration-150";
-    } else if (ttsData.category == "ML/DL") {
-      return "hover:text-blue transition duration-150";
+  const textHoverCSS = (idx: number) => {
+    if (ttsTitleArray.indexOf(ttsData.title) == idx) {
+      if (ttsData.category == "Front") {
+        return "text-red";
+      } else if (ttsData.category == "Back") {
+        return "text-green";
+      } else if (ttsData.category == "CS/DTS") {
+        return "text-yellow";
+      } else if (ttsData.category == "ML/DL") {
+        return "text-blue";
+      }
+    } else {
+      if (ttsData.category == "Front") {
+        return "hover:text-red transition duration-150";
+      } else if (ttsData.category == "Back") {
+        return "hover:text-green transition duration-150";
+      } else if (ttsData.category == "CS/DTS") {
+        return "hover:text-yellow transition duration-150";
+      } else if (ttsData.category == "ML/DL") {
+        return "hover:text-blue transition duration-150";
+      }
     }
   };
 
@@ -96,7 +111,7 @@ export default function TTS({ params }: Params) {
                           key={idx}
                           href={"/tts/" + data.slug}
                         >
-                          <span className={textHoverCSS()}>
+                          <span className={textHoverCSS(idx)}>
                             {idx + 1}. {data.title}
                           </span>
                         </Link>
