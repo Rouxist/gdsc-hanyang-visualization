@@ -67,9 +67,9 @@ export default function TTS({ params }: Params) {
 
   const gridElementCSS = () => {
     if (ttsData.category == "CS/DTS") {
-      return "py-[9px] -mb-3 text-lg";
+      return "py-[8px] -mb-3 text-lg";
     } else {
-      return "py-[9px] text-lg";
+      return "py-[8px] text-lg";
     }
   };
 
@@ -79,8 +79,8 @@ export default function TTS({ params }: Params) {
         <Header category={ttsData.category} />
       </header>
       <section>
-        <div className="max-w-[1600px] mx-auto bg-red-100">
-          <div className="flex py-[30px]">
+        <div className="max-w-[1600px] mx-auto">
+          <div className="flex pt-[30px] pb-[25px]">
             <div className="flex flex-col h-[840px] flex-auto items-center">
               <iframe
                 className="w-[854px] h-[480px]"
@@ -102,7 +102,7 @@ export default function TTS({ params }: Params) {
                     </tbody>
                   </table>
                 </div>
-                <div className="w-[854px] h-[290px] px-[15px] overflow-scroll">
+                <div className="w-[854px] h-[290px] px-[15px] overflow-scroll scrollbar-hide">
                   <div className={gridCSS()}>
                     {ttsTitleAndSlugArray.map(
                       (data: TitleAndSlug, idx: number) => (
