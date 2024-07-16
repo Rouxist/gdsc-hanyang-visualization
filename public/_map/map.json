@@ -9,7 +9,8 @@
       "src": "https://www.youtube.com/embed/kks96UamI5k",
       "slug": "overfitting-underfitting",
       "desc": "모델을 학습하다보면 발생하는 Overfitting 혹은 Underfitting 상황에 대해 알아보자!",
-      "coordinate": "423,566,15"
+      "coordinate": "423,566,15",
+      "postId": "5365c89962f547608eebd2076afc2a7b"
     },
     {
       "title": "Supervised & Unsupervisied",
@@ -81,7 +82,8 @@
       "src": "https://www.youtube.com/embed/qGAk4hLUiOc",
       "slug": "hypetuning",
       "desc": "딥러닝에 있어 Hyperparameter Tuning이란 무엇인지 알아보자!",
-      "coordinate": "690,817,15"
+      "coordinate": "690,817,15",
+      "postId": "a5e8c06368b44783bfd8829182e51483"
     },
     {
       "title": "EDA",
@@ -171,7 +173,8 @@
       "src": "https://www.youtube.com/embed/QxSOHkl8S-o",
       "slug": "ci-cd",
       "desc": "GDSC HYU TTS 3회차 - CI/CD 발표",
-      "coordinate": "985,237,15"
+      "coordinate": "985,237,15",
+      "postId": "e110b1c21bfd44e1957414a0f1e8782c"
     },
     {
       "title": "Lock & Transaction",
@@ -185,7 +188,7 @@
     {
       "title": "Request & Response",
       "category": "Back",
-      "speaker": "정혜운",
+      "speaker": "정혜윤",
       "src": "https://www.youtube.com/embed/uGCZnSEtcqY",
       "slug": "request-response",
       "desc": "네트워크 요청과 응답에 대해 알아보자!",
@@ -234,7 +237,8 @@
       "src": "https://www.youtube.com/embed/G6fpL-Qd1cQ",
       "slug": "http-method",
       "desc": "네트워크의 근간인 HTTP Method에 대해 알아보자!",
-      "coordinate": "988,654,15"
+      "coordinate": "988,654,15",
+      "postId": "09541d4de4524b39b68d5b031a45d28f"
     },
     {
       "title": "Scope & Closure",
@@ -408,7 +412,7 @@
       "coordinate": ""
     },
     {
-      "title": "ADsP(Advanced Data Analytics Semi-Professional)",
+      "title": "ADsP",
       "category": "CS/DTS",
       "speaker": "김예림",
       "src": "https://www.youtube.com/embed/KljtDZhSSGA",

@@ -6,4 +6,5 @@ export type Tts = {
   slug: string;
   desc: string;
   coordinate: string;
+  postId: string;
 };
