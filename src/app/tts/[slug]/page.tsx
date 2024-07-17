@@ -79,8 +79,8 @@ export default function TTS({ params }: Params) {
         <Header category={ttsData.category} />
       </header>
       <section>
-        <div className="max-w-[1600px] h-[91vh] mx-auto">
-          <div className="flex pt-[30px] pb-[25px]">
+        <div className="max-w-[1600px] h-[90vh] mx-auto overflow-hidden">
+          <div className="flex pt-[30px]">
             <div className="flex flex-col h-[85vh] flex-auto items-center">
               <iframe
                 className="w-[854px] h-[480px]"

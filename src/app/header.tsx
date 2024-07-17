@@ -8,22 +8,22 @@ type Params = {
 const Header = ({ category }: Params) => {
   const borderColor = () => {
     if (category == "Front") {
-      return "max-w-[1600px] h-[9vh] mx-auto items-center border-b-2 border-red";
+      return "max-w-[1600px] h-[9vh] min-h-[85px] mx-auto items-center border-b-2 border-red";
     } else if (category == "Back") {
-      return "max-w-[1600px] h-[9vh] mx-auto items-center border-b-2 border-green";
+      return "max-w-[1600px] h-[9vh] min-h-[85px] mx-auto items-center border-b-2 border-green";
     } else if (category == "CS/DTS") {
-      return "max-w-[1600px] h-[9vh] mx-auto items-center border-b-2 border-yellow";
+      return "max-w-[1600px] h-[9vh] min-h-[85px] mx-auto items-center border-b-2 border-yellow";
     } else if (category == "ML/DL") {
-      return "max-w-[1600px] h-[9vh] mx-auto items-center border-b-2 border-blue";
+      return "max-w-[1600px] h-[9vh] min-h-[85px] mx-auto items-center border-b-2 border-blue";
     }
   };
 
   return (
     <div className={borderColor()}>
-      <table className="w-[100%] h-[9vh]">
+      <table className="w-[100%]">
         <tbody>
           <tr>
-            <td className="xl:max-w-[700px] xl:w-[35vw] md:w-[20vw] w-[10vw] h-[9vh]">
+            <td className="xl:max-w-[700px] xl:w-[35vw] md:w-[20vw] md:min-w-[350px] sd:min-w-[200px] h-[9vh]">
               <Link href="/">
                 <div className="xl:w-[60px] md:w-[30px] w-[20px] inline-block align-middle">
                   <Image
@@ -33,12 +33,12 @@ const Header = ({ category }: Params) => {
                     alt="gdsc-logo"
                   />
                 </div>
-                <div className="xl:text-xl md:text-[0.8rem] sm:text-sm text-xs ml-2 inline-block">
+                <div className="xl:text-xl md:text-lg sm:text-sm text-xs ml-2 inline-block">
                   Google Developer Student Clubs
                 </div>
               </Link>
             </td>
-            <td className="text-right">
+            <td className="text-right overflow-hidden">
               <HeaderButton
                 text="Front"
                 href="/tts/ui-ux"
@@ -65,12 +65,14 @@ const Header = ({ category }: Params) => {
               />
             </td>
             <td className="text-right">
-              <HeaderButton
-                text="Solution Chanllenge"
-                href="https://pineapple-tiglon-ff5.notion.site/GDSC-52ea384df18041e5adc51396fa4be294?pvs=4"
-                category={category}
-                isSelected={category == "Solution"}
-              />
+              <div className="xl:block hidden">
+                <HeaderButton
+                  text="Solution Chanllenge"
+                  href="https://pineapple-tiglon-ff5.notion.site/GDSC-52ea384df18041e5adc51396fa4be294?pvs=4"
+                  category={category}
+                  isSelected={category == "Solution"}
+                />
+              </div>
             </td>
           </tr>
         </tbody>
@@ -107,7 +109,7 @@ export function HeaderButton({ text, href, category, isSelected }: Prop) {
     >
       <Link
         href={href}
-        className="xl:text-xl md:text-[0.87rem] sm:text-[0.75rem] text-[0.7rem] hover:text-veriperi md:px-5 px-2 py-2.5 text-center"
+        className="xl:text-xl md:text-[1.2rem] sm:text-[0.75rem] text-[0.7rem] hover:text-veriperi md:px-5 px-2 py-2.5 text-center"
       >
         {text}
       </Link>
