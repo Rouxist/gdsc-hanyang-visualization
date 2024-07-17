@@ -91,13 +91,13 @@ type Prop = {
 export function HeaderButton({ text, href, category, isSelected }: Prop) {
   const headerButtonColor = () => {
     if (category == "Front") {
-      return "my-4 mx-2 text-red inline-block";
+      return "my-4 mx-2 text-red font-bold inline-block";
     } else if (category == "Back") {
-      return "my-4 mx-2 text-green inline-block";
+      return "my-4 mx-2 text-green font-bold inline-block";
     } else if (category == "CS/DTS") {
-      return "my-4 mx-2 text-yellow inline-block";
+      return "my-4 mx-2 text-yellow font-bold inline-block";
     } else if (category == "ML/DL") {
-      return "my-4 mx-2 text-blue inline-block";
+      return "my-4 mx-2 text-blue font-bold inline-block";
     }
   };
 
