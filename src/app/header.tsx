@@ -8,22 +8,22 @@ type Params = {
 const Header = ({ category }: Params) => {
   const borderColor = () => {
     if (category == "Front") {
-      return "max-w-[1600px] h-[85px] mx-auto items-center border-b-2 border-red";
+      return "max-w-[1600px] h-[9vh] mx-auto items-center border-b-2 border-red";
     } else if (category == "Back") {
-      return "max-w-[1600px] h-[85px] mx-auto items-center border-b-2 border-green";
+      return "max-w-[1600px] h-[9vh] mx-auto items-center border-b-2 border-green";
     } else if (category == "CS/DTS") {
-      return "max-w-[1600px] h-[85px] mx-auto items-center border-b-2 border-yellow";
+      return "max-w-[1600px] h-[9vh] mx-auto items-center border-b-2 border-yellow";
     } else if (category == "ML/DL") {
-      return "max-w-[1600px] h-[85px] mx-auto items-center border-b-2 border-blue";
+      return "max-w-[1600px] h-[9vh] mx-auto items-center border-b-2 border-blue";
     }
   };
 
   return (
     <div className={borderColor()}>
-      <table className="w-[100%] h-[85px]">
+      <table className="w-[100%] h-[9vh]">
         <tbody>
           <tr>
-            <td className="xl:w-[40vw] md:w-[30vw] h-[85px]">
+            <td className="xl:max-w-[700px] xl:w-[35vw] md:w-[20vw] w-[10vw] h-[9vh]">
               <Link href="/">
                 <div className="xl:w-[60px] md:w-[30px] w-[20px] inline-block align-middle">
                   <Image
