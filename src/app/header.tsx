@@ -23,9 +23,9 @@ const Header = ({ category }: Params) => {
       <table className="w-[100%] h-[85px]">
         <tbody>
           <tr>
-            <td className="w-[700px] h-[85px]">
+            <td className="xl:w-[40vw] md:w-[30vw] h-[85px]">
               <Link href="/">
-                <div className="inline-block align-middle">
+                <div className="xl:w-[60px] md:w-[30px] w-[20px] inline-block align-middle">
                   <Image
                     src="/favicon.ico"
                     width={80}
@@ -33,7 +33,7 @@ const Header = ({ category }: Params) => {
                     alt="gdsc-logo"
                   />
                 </div>
-                <div className="ml-2 inline-block text-xl">
+                <div className="xl:text-xl md:text-[0.8rem] sm:text-sm text-xs ml-2 inline-block">
                   Google Developer Student Clubs
                 </div>
               </Link>
@@ -107,7 +107,7 @@ export function HeaderButton({ text, href, category, isSelected }: Prop) {
     >
       <Link
         href={href}
-        className="text-xl hover:text-veriperi md:px-5 px-2 py-2.5 text-center"
+        className="xl:text-xl md:text-[0.87rem] sm:text-[0.75rem] text-[0.7rem] hover:text-veriperi md:px-5 px-2 py-2.5 text-center"
       >
         {text}
       </Link>
