@@ -83,7 +83,7 @@ export default function TTS({ params }: Params) {
           <div className="flex pt-[30px]">
             <div className="flex flex-col h-[85vh] flex-auto items-center">
               <iframe
-                className="w-[854px] h-[480px]"
+                className="w-[854px] h-[480px] border border-white"
                 src={ttsData.src}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               ></iframe>
@@ -121,7 +121,7 @@ export default function TTS({ params }: Params) {
                 </div>
               </div>
             </div>
-            <div className="ml-[20px] xl:block hidden w-[726px] h-[85vh] overflow-scroll border-l border-gray">
+            <div className="ml-[20px] xl:block hidden w-[726px] h-[85vh] overflow-scroll border border-white">
               <RightBlock postId={ttsData.postId} />
             </div>
           </div>
