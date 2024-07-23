@@ -1,0 +1,94 @@
+{
+  "elements": [
+    {
+      "title": "TrashWouldBe",
+      "src": "/assets/solution_challenge/trash_would_be.png",
+      "color": "red",
+      "front": "한승우",
+      "back": "홍정범, 김진태",
+      "ai": "홍정범",
+      "design": "안희"
+    },
+    {
+      "title": "SEtour",
+      "src": "/assets/solution_challenge/blank.png",
+      "color": "green",
+      "front": "",
+      "back": "",
+      "ai": "",
+      "design": ""
+    },
+    {
+      "title": "Grimee",
+      "src": "/assets/solution_challenge/grimee.png",
+      "front": "",
+      "color": "blue",
+      "back": "",
+      "ai": "",
+      "design": ""
+    },
+    {
+      "title": "Taek It Easy",
+      "src": "/assets/solution_challenge/taek_it_easy.png",
+      "color": "yellow",
+      "front": "김지송, 조서우",
+      "back": "고다은, 이지환",
+      "ai": "이지환",
+      "design": "조서우"
+    },
+    {
+      "title": "FarmWorld",
+      "src": "/assets/solution_challenge/farm_world.png",
+      "color": "gray",
+      "front": "강혜린, 하선웅",
+      "back": "하선웅, 홍현민",
+      "ai": "이재승",
+      "design": "강혜린"
+    },
+    {
+      "title": "AGILE",
+      "src": "/assets/solution_challenge/blank.png",
+      "color": "red",
+      "front": "한승우",
+      "back": "홍정범, 김진태",
+      "ai": "홍정범",
+      "design": "안희"
+    },
+    {
+      "title": "건설현장 안전관리팀",
+      "src": "/assets/solution_challenge/blank.png",
+      "color": "green",
+      "front": "",
+      "back": "",
+      "ai": "",
+      "design": ""
+    },
+    {
+      "title": "Music Palette",
+      "src": "/assets/solution_challenge/music_palette.png",
+      "color": "blue",
+      "front": "정우서",
+      "back": "박소영, 주연진",
+      "ai": "권도혁",
+      "design": ""
+    },
+    {
+      "title": "ObsFree",
+      "src": "/assets/solution_challenge/obs_free.png",
+      "color": "yellow",
+      "front": "김기진",
+      "back": "박영현, 박혜정",
+      "ai": "임도현",
+      "design": "박혜정"
+    },
+    {
+      "title": "Phising팀",
+      "src": "/assets/solution_challenge/blank.png",
+      "color": "gray",
+      "front": "",
+      "back": "",
+      "ai": "",
+      "design": ""
+    }
+  ]
+}

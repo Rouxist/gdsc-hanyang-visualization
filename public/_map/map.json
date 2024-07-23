@@ -471,6 +471,16 @@
       "desc": "null",
       "coordinate": "",
       "postId": ""
+    },
+    {
+      "title": "solution challenge",
+      "category": "",
+      "speaker": "강혜린",
+      "src": "",
+      "slug": "solution_challenge",
+      "desc": "",
+      "coordinate": "820,480,160",
+      "postId": ""
     }
   ]
 }

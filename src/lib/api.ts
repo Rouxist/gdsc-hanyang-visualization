@@ -7,8 +7,8 @@ import { join } from "path";
 export function getMap() {
   const fullPath = join(process.cwd(), "public/_map/map.json");
   const fileContents = fs.readFileSync(fullPath, "utf8");
-  const threadData = JSON.parse(fileContents);
-  return threadData;
+  const mapData = JSON.parse(fileContents);
+  return mapData;
 }
 
 // tts
@@ -33,4 +33,13 @@ export function getTtsArrayOfSameCategory(category: string) {
   }));
 
   return ttsTitleData;
+}
+
+// solution challenge
+
+export function getSolutionChallenge() {
+  const fullPath = join(process.cwd(), "public/_map/solution_challenge.json");
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const solutionChallengeData = JSON.parse(fileContents)["elements"];
+  return solutionChallengeData;
 }

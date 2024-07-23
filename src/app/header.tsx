@@ -15,6 +15,8 @@ const Header = ({ category }: Params) => {
       return "max-w-[1600px] h-[9vh] min-h-[85px] mx-auto items-center border-b-2 border-yellow";
     } else if (category == "ML/DL") {
       return "max-w-[1600px] h-[9vh] min-h-[85px] mx-auto items-center border-b-2 border-blue";
+    } else if (category == "solution-challenge") {
+      return "max-w-[1600px] h-[9vh] min-h-[85px] mx-auto items-center border-b-2 border-gray";
     }
   };
 
@@ -67,10 +69,10 @@ const Header = ({ category }: Params) => {
             <td className="text-right">
               <div className="xl:block hidden">
                 <HeaderButton
-                  text="Solution Chanllenge"
-                  href="https://pineapple-tiglon-ff5.notion.site/GDSC-52ea384df18041e5adc51396fa4be294?pvs=4"
+                  text="Solution Challenge"
+                  href="/solution-challenge"
                   category={category}
-                  isSelected={category == "Solution"}
+                  isSelected={category == "solution-challenge"}
                 />
               </div>
             </td>
@@ -100,6 +102,8 @@ export function HeaderButton({ text, href, category, isSelected }: Prop) {
       return "my-4 mx-2 text-yellow font-bold inline-block";
     } else if (category == "ML/DL") {
       return "my-4 mx-2 text-blue font-bold inline-block";
+    } else if (category == "solution-challenge") {
+      return "my-4 mx-2 text-gray font-bold inline-block";
     }
   };
 

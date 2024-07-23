@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import { getTtsBySlug, getTtsArrayOfSameCategory } from "@/lib/api";
 import Header from "@/app/header";
 import Link from "next/link";
@@ -15,6 +16,10 @@ type TitleAndSlug = {
 };
 
 export default function TTS({ params }: Params) {
+  if (params.slug == "solution_challenge") {
+    redirect("/solution-challenge");
+  }
+
   const ttsData = getTtsBySlug(params.slug);
   const ttsTitleAndSlugArray = getTtsArrayOfSameCategory(ttsData.category);
   const ttsTitleArray = ttsTitleAndSlugArray.map(
