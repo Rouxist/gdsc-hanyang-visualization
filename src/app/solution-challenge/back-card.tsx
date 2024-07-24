@@ -7,7 +7,7 @@ type Params = {
 export default function SolutionChallengeBackCard({ link }: Params) {
   if (link == "") {
     return (
-      <div className="w-[260px] h-[380px] rounded-xl shadow-[inset_0_1px_4px_rgba(0,0,0,0.6)] bg-[#ffffff] z-10 absolute inset-0 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+      <div className="w-[260px] h-[380px] rounded-xl shadow-[inset_0_-1px_4px_rgba(0,0,0,0.6)] bg-[#ffffff] z-10 absolute inset-0 [transform:rotateY(180deg)] [backface-visibility:hidden]">
         <Image
           src="/assets/solution_challenge/github-mark.png"
           className="mx-auto pt-20"
@@ -24,7 +24,7 @@ export default function SolutionChallengeBackCard({ link }: Params) {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[260px] h-[380px] rounded-xl shadow-[inset_0_1px_4px_rgba(0,0,0,0.6)] bg-[#ffffff] z-10 absolute inset-0 [transform:rotateY(180deg)] [backface-visibility:hidden]"
+        className="w-[260px] h-[380px] rounded-xl shadow-[inset_0_-1px_4px_rgba(0,0,0,0.6)] bg-[#ffffff] z-10 absolute inset-0 [transform:rotateY(180deg)] [backface-visibility:hidden]"
       >
         <Image
           src="/assets/solution_challenge/github-mark.png"
