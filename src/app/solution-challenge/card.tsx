@@ -26,7 +26,7 @@ export default function SolutionChallengeCard({
 
   return (
     <div
-      className="group [perspective:1000px] w-[260px]"
+      className="group [perspective:1000px] w-[260px] h-[380px]"
       key={solutionChallengeData.title}
     >
       <div className="w-[260px] relative transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
