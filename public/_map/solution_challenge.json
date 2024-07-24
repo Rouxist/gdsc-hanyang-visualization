@@ -7,7 +7,8 @@
       "front": "한승우",
       "back": "홍정범, 김진태",
       "ai": "홍정범",
-      "design": "안희"
+      "design": "안희",
+      "link": "https://github.com/TrashWouldBe"
     },
     {
       "title": "SEtour",
@@ -16,7 +17,8 @@
       "front": "",
       "back": "",
       "ai": "",
-      "design": ""
+      "design": "",
+      "link": "https://github.com/Kongtaks/SolutionChallenge_SEtour"
     },
     {
       "title": "Grimee",
@@ -25,7 +27,8 @@
       "color": "blue",
       "back": "",
       "ai": "",
-      "design": ""
+      "design": "",
+      "link": "https://github.com/dbtjgus6988/Grimee_frontend"
     },
     {
       "title": "Taek It Easy",
@@ -34,7 +37,8 @@
       "front": "김지송, 조서우",
       "back": "고다은, 이지환",
       "ai": "이지환",
-      "design": "조서우"
+      "design": "조서우",
+      "link": "https://github.com/Taek-It-Easy"
     },
     {
       "title": "FarmWorld",
@@ -43,7 +47,8 @@
       "front": "강혜린, 하선웅",
       "back": "하선웅, 홍현민",
       "ai": "이재승",
-      "design": "강혜린"
+      "design": "강혜린",
+      "link": "https://github.com/Picks-and-Shovels"
     },
     {
       "title": "AGILE",
@@ -52,7 +57,8 @@
       "front": "한승우",
       "back": "홍정범, 김진태",
       "ai": "홍정범",
-      "design": "안희"
+      "design": "안희",
+      "link": ""
     },
     {
       "title": "건설현장 안전관리팀",
@@ -61,7 +67,8 @@
       "front": "",
       "back": "",
       "ai": "",
-      "design": ""
+      "design": "",
+      "link": "https://github.com/jjangddu/SolChall"
     },
     {
       "title": "Music Palette",
@@ -70,7 +77,8 @@
       "front": "정우서",
       "back": "박소영, 주연진",
       "ai": "권도혁",
-      "design": ""
+      "design": "",
+      "link": "https://github.com/sso0711/2024-SolutionChallenge-MusicPalette"
     },
     {
       "title": "ObsFree",
@@ -79,7 +87,8 @@
       "front": "김기진",
       "back": "박영현, 박혜정",
       "ai": "임도현",
-      "design": "박혜정"
+      "design": "박혜정",
+      "link": "https://github.com/aDecay/ObsFree"
     },
     {
       "title": "Phising팀",
@@ -88,7 +97,8 @@
       "front": "",
       "back": "",
       "ai": "",
-      "design": ""
+      "design": "",
+      "link": ""
     }
   ]
 }

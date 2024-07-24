@@ -6,4 +6,5 @@ export type SolutionChallenge = {
   back: string;
   ai: string;
   design: string;
+  link: string;
 };
