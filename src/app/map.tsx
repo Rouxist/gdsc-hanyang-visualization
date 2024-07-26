@@ -69,7 +69,6 @@ export default function Map({ ttsData }: Params) {
           ></area>
         ))}
       </map>
-      윈도우 폭: {windowWidth} px
     </div>
   );
 }
