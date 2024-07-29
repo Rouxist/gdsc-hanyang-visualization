@@ -53,7 +53,7 @@ export default function Map({ ttsData }: Params) {
       <div className="w-[100vw]">
         <Image
           useMap="#gdsc-map"
-          src="/assets/map.jpeg"
+          src="/assets/map.png"
           width={17100}
           height={962}
           alt="map"

@@ -59,7 +59,7 @@
       "src": "https://www.youtube.com/embed/HvTjc3PAYc4",
       "slug": "generative",
       "desc": "GenAI의 역사 및 특징에 대해 알아보자!",
-      "coordinate": "551,806,15",
+      "coordinate": "560,806,15",
       "postId": "dab0e89cf84a408b93e9c060467b8fd9"
     },
     {
@@ -69,7 +69,7 @@
       "src": "https://www.youtube.com/embed/nDJjkGIlamI",
       "slug": "multimodal",
       "desc": "요즘 핫한 키워드인 Multi-modal에 대해 알아보자!",
-      "coordinate": "591,797,15",
+      "coordinate": "595,797,15",
       "postId": "08a450d6e8684dd69051335a0a79f34d"
     },
     {
@@ -89,7 +89,7 @@
       "src": "https://www.youtube.com/embed/qGAk4hLUiOc",
       "slug": "hypetuning",
       "desc": "딥러닝에 있어 Hyperparameter Tuning이란 무엇인지 알아보자!",
-      "coordinate": "690,817,15",
+      "coordinate": "690,810,15",
       "postId": "a5e8c06368b44783bfd8829182e51483"
     },
     {
@@ -99,7 +99,7 @@
       "src": "https://www.youtube.com/embed/t6K0Eo_5ir8",
       "slug": "eda",
       "desc": "데이터 분석의 핵심인 EDA 과정에 대해 알아보자!",
-      "coordinate": "725,800,15",
+      "coordinate": "725,790,15",
       "postId": "2be73eb3f2be4559986c9deb03db9c9f"
     },
     {
@@ -109,7 +109,7 @@
       "src": "https://www.youtube.com/embed/Ul_Z5qWtsXs",
       "slug": "backpropagation-gradientdescent",
       "desc": "역전파와 경사하강법에 대해 알아보자!",
-      "coordinate": "764,808,15",
+      "coordinate": "770,800,15",
       "postId": "f529b148491f41718c37f1435acf024b"
     },
     {
@@ -129,7 +129,7 @@
       "src": "https://www.youtube.com/embed/MYykIdOeZKE",
       "slug": "ui-ux",
       "desc": "null",
-      "coordinate": "382,279,15",
+      "coordinate": "388,275,15",
       "postId": ""
     },
     {
@@ -139,7 +139,7 @@
       "src": "https://www.youtube.com/embed/W-droG998Xs",
       "slug": "csr-ssr",
       "desc": "Client냐 Server냐! 서로다른 렌더링 방식인 CSR과 SSR에 대해 알아보자!",
-      "coordinate": "316,411,15",
+      "coordinate": "320,405,15",
       "postId": "1d7421502ed54503b096f54f010e9d32"
     },
     {
@@ -149,7 +149,7 @@
       "src": "https://www.youtube.com/embed/GlP1d8TupAg",
       "slug": "component",
       "desc": "null",
-      "coordinate": "406,399,15",
+      "coordinate": "410,395,15",
       "postId": ""
     },
     {
@@ -159,7 +159,7 @@
       "src": "https://www.youtube.com/embed/oCNs019k5NE",
       "slug": "cookie-webstorage",
       "desc": "쿠키? 세션? 그것이 뭔지 알아보자!",
-      "coordinate": "500,411,15",
+      "coordinate": "505,408,15",
       "postId": "9da8c3e5ae154207821c76f5789f35c1"
     },
     {
@@ -169,7 +169,7 @@
       "src": "https://www.youtube.com/embed/9Kb3MQMyl5I",
       "slug": "crossplatform-native-hybrid",
       "desc": "다양한 개발 플랫폼에 대해 비교해보자!",
-      "coordinate": "595,213,15",
+      "coordinate": "600,210,15",
       "postId": "404d1d5d2f474f0cb9a6626ae7700048"
     },
     {
@@ -179,7 +179,7 @@
       "src": "https://www.youtube.com/embed/GlYeueps4jQ",
       "slug": "layout",
       "desc": "디자인의 기본 개념인 Layout에 대해 알아보자!",
-      "coordinate": "597,322,15",
+      "coordinate": "600,320,15",
       "postId": "e058603523a84795b2a7b2bc8d2120cd"
     },
     {
@@ -189,7 +189,7 @@
       "src": "https://www.youtube.com/embed/QxSOHkl8S-o",
       "slug": "ci-cd",
       "desc": "GDSC HYU TTS 3회차 - CI/CD 발표",
-      "coordinate": "985,237,15",
+      "coordinate": "990,230,15",
       "postId": "e110b1c21bfd44e1957414a0f1e8782c"
     },
     {
@@ -199,7 +199,7 @@
       "src": "https://www.youtube.com/embed/709NydC66RM",
       "slug": "lock-transaction",
       "desc": "Lock과 Transaction이 무엇인지 그리고 MySQL에서 어떻게 쓰이는지 알아보자!",
-      "coordinate": "1009,220,15",
+      "coordinate": "1015,215,15",
       "postId": "d50b27a8823f4a8da05bc839f5234430"
     },
     {
@@ -209,7 +209,7 @@
       "src": "https://www.youtube.com/embed/uGCZnSEtcqY",
       "slug": "request-response",
       "desc": "네트워크 요청과 응답에 대해 알아보자!",
-      "coordinate": "1041,198,15",
+      "coordinate": "1050,195,15",
       "postId": "b92be7e2723f4850b76aa03c1a2fcaf5"
     },
     {
@@ -219,7 +219,7 @@
       "src": "https://www.youtube.com/embed/pOJ64IwfDhY",
       "slug": "load-balancing",
       "desc": "네트워크의 부하를 막기위해 요청을 분산해주는 기술인 로드밸런싱에 대해 알아보자!",
-      "coordinate": "1068,190,15",
+      "coordinate": "1075,185,15",
       "postId": "f8d3590032e74c81968c7786f6daa010"
     },
     {
@@ -229,7 +229,7 @@
       "src": "https://www.youtube.com/embed/3PbMqHBiM50",
       "slug": "sql-nosql",
       "desc": "SQL과 NoSQL이 뭘까? 서로 비교하며 알아보자!",
-      "coordinate": "1139,216,15",
+      "coordinate": "1143,210,15",
       "postId": "26559b043f9a4c1ca33c0a2372edecce"
     },
     {
@@ -239,7 +239,7 @@
       "src": "https://www.youtube.com/embed/yoLju75U3mI",
       "slug": "docker",
       "desc": "null",
-      "coordinate": "1160,240,15",
+      "coordinate": "1165,237,15",
       "postId": ""
     },
     {
@@ -259,7 +259,7 @@
       "src": "https://www.youtube.com/embed/dxtb0OEF0_w",
       "slug": "scope-closure",
       "desc": "개발에 있어 매우 중요한 개념인 Scope & Closure에 대해 알아보자!",
-      "coordinate": "1038,680,15",
+      "coordinate": "1045,675,15",
       "postId": "b738e584be934d128581cdcb71ca96ca"
     },
     {
@@ -269,7 +269,7 @@
       "src": "https://www.youtube.com/embed/Jxcw0MjTN_Q",
       "slug": "complied-interpreted",
       "desc": "컴파일러와 인터프리터 언어의 차이!",
-      "coordinate": "1056,727,15",
+      "coordinate": "1060,725,15",
       "postId": "b42fdda8914444378f48e2068f91ea07"
     },
     {
@@ -279,7 +279,7 @@
       "src": "https://www.youtube.com/embed/OTlj0RyLcXE",
       "slug": "github",
       "desc": "우리가 자주 사용하게 될 Github에 대해 더 쉽게 알아보자!",
-      "coordinate": "1038,775,15",
+      "coordinate": "1042,773,15",
       "postId": "564ca58d3d7a41899d103ffe0f02577f"
     },
     {
@@ -289,7 +289,7 @@
       "src": "https://www.youtube.com/embed/SvywAjmOeRw",
       "slug": "library-framework-api",
       "desc": "라이브러리와 프레임워크, 그리고 API에 대해 알아보자!",
-      "coordinate": "988,804,15",
+      "coordinate": "993,800,15",
       "postId": "025a7ad8c75f44489137540326a03f8f"
     },
     {
@@ -299,7 +299,7 @@
       "src": "https://www.youtube.com/embed/z0a7g5rMNYs",
       "slug": "cpu-scheduling",
       "desc": "프로세스와 CPU Scheduling 기법에 대해 알아보자!",
-      "coordinate": "939,776,15",
+      "coordinate": "947,772,15",
       "postId": "c5b9fe25cb284a47b35e02f43fc5841c"
     },
     {
@@ -309,7 +309,7 @@
       "src": "https://www.youtube.com/embed/2G5HbH4AVuU",
       "slug": "tcp-ip",
       "desc": "네트워크의 핵심인 TCP/IP 개념에 대해 알아보자!",
-      "coordinate": "920,726,15",
+      "coordinate": "928,722,15",
       "postId": "91ac3bd0402c4be7a6167f8a127baa16"
     },
     {
@@ -319,7 +319,7 @@
       "src": "https://www.youtube.com/embed/BEn9oJd_nD0",
       "slug": "time-complexity",
       "desc": "수행시간을 보는 Metric인 시간복잡도에 대해 알아보자!",
-      "coordinate": "938,679,15",
+      "coordinate": "942,676,15",
       "postId": "4717a0e1dfeb43c490d977f1a74fa120"
     },
     {
@@ -329,7 +329,7 @@
       "src": "https://www.youtube.com/embed/X2ZjavVJcww",
       "slug": "bfs-dfs",
       "desc": "중요한 탐색 알고리즘인, DFS와 BFS에 대해 알아보자!",
-      "coordinate": "986,723,15",
+      "coordinate": "994,720,15",
       "postId": "86c1bce6eaaa4ea0830996451a81b541"
     },
     {
@@ -339,7 +339,7 @@
       "src": "https://www.youtube.com/embed/TXfQpJuYIuQ",
       "slug": "binary-search",
       "desc": "효율적인 자료 탐색 방식인 Binary Search에 대해 알아보자",
-      "coordinate": "1411,432,15",
+      "coordinate": "1152,732,15",
       "postId": "9442c1030928458a84be50e3c0923c7c"
     },
     {
@@ -349,7 +349,7 @@
       "src": "https://www.youtube.com/embed/XUnrHHDu7KU",
       "slug": "tree",
       "desc": "자료구조의 일종인 Tree에 대해 알아보자!",
-      "coordinate": "1161,754,15",
+      "coordinate": "1190,732,15",
       "postId": "a151de4f20f9485198da9504dd7f163f"
     },
     {
@@ -359,7 +359,7 @@
       "src": "https://www.youtube.com/embed/m0jF1cRnzz4",
       "slug": "stack-queue",
       "desc": "기본적인 자료구조인 Stack과 Queue에 대해 알아보자!",
-      "coordinate": "1210,785,15",
+      "coordinate": "1240,732,15",
       "postId": "c637db32f9424d4f9af2e3e230f17479"
     },
     {
@@ -369,7 +369,7 @@
       "src": "https://www.youtube.com/embed/baLqVJPib5w",
       "slug": "cache",
       "desc": "null",
-      "coordinate": "1266,752,15",
+      "coordinate": "1280,732,15",
       "postId": ""
     },
     {
@@ -379,7 +379,7 @@
       "src": "https://www.youtube.com/embed/OEjB46MtMSU",
       "slug": "first-developing",
       "desc": "차민님의 “나의 첫 개발 후기” 발표입니다!",
-      "coordinate": "1211,597,15",
+      "coordinate": "1220,590,15",
       "postId": "a30be08c01d24b71af851f2bc9f3445d"
     },
     {
